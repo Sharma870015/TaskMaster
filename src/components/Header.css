@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body{
+    font-family: "Libre Baskerville", serif;
+    font-family: "Abel", sans-serif;
+    background-image: url(/src/Images/image.png);
+
+
+}
+.main-head {
+    border-bottom: 1px solid rgb(228, 228, 228);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Abel", sans-serif;
+    background: whitesmoke;
+}
+
+h2.main-plan {
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 64px;
+    height: 30px;
+    background: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-family: "Abel", sans-serif;
+}
+img.logo {
+  height: 5em;
+  padding-left: 20px;
+  width: 80px;
+}
+ul.ul-head {
+    display: flex;
+    margin-right: 0px;
+    font-family: "Abel", sans-serif;
+    font-size: 15px;
+}
+li.li-home {
+    margin-right: 30px;
+    font-family: "Abel", sans-serif;
+}
+.second-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Abel", sans-serif;
+}
+.task {
+    font-family: "Abel", sans-serif;
+    color: #0b93bf;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header.css */
+.main-head {
+  background: whitesmoke;
+  padding: 0px;
+  }
+  
+  .second-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .task {
+    margin: 0;
+    font-size: 40px;
+    border-bottom: 1px solid #69d0f1;
+}
+  
+  .ul-head {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .ul-head .li-home, .ul-head .li-about {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .ul-head .li-home:hover, .ul-head .li-about:hover {
+    color: #007bff;
+  }
+  
+
+  /* Header.css */
+.main-head {
+  background: whitesmoke;
+  color: #343232;
+  padding: 10px 20px;
+}
+
+.second-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+}
+
+.task {
+  margin: 0;
+  font-size: 35px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Hover color */
+}
+
+
+.ul-head {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-head li {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .task {
+    font-size: 25px;
+  }
+
+  .ul-head {
+    flex-direction: column;
+    align-items: center;
+  }
+}
